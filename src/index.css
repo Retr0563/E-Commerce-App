@@ -7,7 +7,7 @@
 
 a {
   text-decoration: none;
-  color: rgb(97, 97, 97);
+  color: #697a21;
 }
 
 li {
@@ -19,8 +19,8 @@ li {
   margin-right: 6px;
   background: transparent;
   border: none;
-  border: 0.6px solid #ccc;
+  border: 0.6px solid #fffce8;
   border-radius: 5px;
-  color: #323232;
+  color: #3e363f;
   cursor: pointer;
 }
