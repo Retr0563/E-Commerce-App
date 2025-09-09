@@ -7,20 +7,9 @@
 
 a {
   text-decoration: none;
-  color: #697a21;
+  color: #394406;
 }
 
 li {
   list-style: none;
-}
-
-.btns {
-  padding: 10px 20px;
-  margin-right: 6px;
-  background: transparent;
-  border: none;
-  border: 0.6px solid #fffce8;
-  border-radius: 5px;
-  color: #3e363f;
-  cursor: pointer;
 }
