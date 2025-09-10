@@ -1,3 +1,4 @@
+import Buttons from "../Components/Buttons";
 import "./Recommends.css";
 
 const Recommendations = () => {
@@ -6,11 +7,11 @@ const Recommendations = () => {
       <div>
         <h2 className="recommend-title">Recommended</h2>
         <div className="recommend-flex">
-          <button className="btns">All Products</button>
-          <button className="btns">Nike</button>
-          <button className="btns">Adidas</button>
-          <button className="btns">Puma</button>
-          <button className="btns">Vans</button>
+          <Buttons onClickHandler={handleClick} value="" title="All Products" />
+          <Buttons onClickHandler={handleClick} value="Nike" title="Nike" />
+          <Buttons onClickHandler={handleClick} value="Adidas" title="Adidas" />
+          <Buttons onClickHandler={handleClick} value="Puma" title="Puma" />
+          <Buttons onClickHandler={handleClick} value="Vans" title="Vans" />
         </div>
       </div>
     </>
